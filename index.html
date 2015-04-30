@@ -69,17 +69,32 @@
 		$(document).ready(function() {                     
     		$("#add").click(function() {
     			var input = $('#simpleInput').val();               
-   				$('#list1').append('<div class="color">'+input+'<div><div>0</div><button class="like btn btn-default btn-lg" >Like</button></div><div><div>0</div><button class="like btn btn-default btn-lg">Dislike</button></div></div>').trigger('create');  
+   				$('#list1').append('<div class="color">'+input+'<div><div class="like">0</div><button class="popularityChanger btn btn-default btn-lg" >Like</button></div><div><div class="dislike">0</div><button class="popularityChanger btn btn-default btn-lg">Dislike</button></div></br><div class="popularity">0</div><p>Popularity</p><button class="delete btn btn-default btn-lg">Delete</button></div>').trigger('create');  
 
-   				$('.like').click(function() {
-   					var sibling;
+   				$('.popularityChanger').click(function() {
    					var likeCountString = $(this).siblings().text();
    					var likeCount = parseInt(likeCountString);
    					var updatedLikeCount = likeCount+1;
    					$(this).siblings().text(updatedLikeCount);
 
+   					var popularityString = $(this).parent().siblings('.popularity').text();
+   					var popularity = parseInt(popularityString);
+   					if ($(this).siblings().hasClass('like')) {
+   						var updatedPopularity = popularity+1;
+   					} else {
+   						var updatedPopularity = popularity-1;
+   					}
+   					$(this).parent().parent().children('.popularity').text(updatedPopularity);
+
    				});
-  			});
+
+   				$('.delete').click(function() {
+   					var confirmation = confirm("Are you sure you want to delete this card?");    
+      				if (confirmation===true) {
+   						$(this).parent().remove();
+   					};
+   				});
+   			});  			
 		});
 	</script>
 

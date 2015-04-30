@@ -216,6 +216,9 @@ li {
 	position: absolute;
 }
 
+.popularity{
+	color:red;
+}
 .color{
 	color:#003366 !important;
 	font-weight: bold;
