@@ -1,0 +1,1586 @@
+/*************general shit *********/
+
+h1 { font-family: 'Verdana', Arial, Helvetica, sans-serif; font-size:20px; color:#A7B461;}
+h2 { font-family: 'Verdana', Arial, Helvetica, sans-serif; font-size:10px; }
+p { font-family: 'Arial', Helvetica, sans-serif; color: #123456; text-align: center;}
+ol { font-family: 'Arial', Helvetica, sans-serif; }
+li { font-family: 'Arial', Helvetica, sans-serif; }
+a{color: #123456;}
+
+html {
+	height: 100%;
+	background-color: #123456;
+}
+
+body{
+	height: 100%;
+	margin:auto;
+	display:inline;
+	text-align: center;
+}
+ul {
+	display: block;
+	list-style-type: disc;
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	-webkit-margin-start: 0;
+	-webkit-margin-end: 0;
+	-webkit-padding-start: 0;
+	background-size: 100% 100%;
+			display: inline-block;
+			margin: 0 auto;	
+}
+
+.jumbotron{
+	height: initial;
+	margin-top: 0;
+}
+
+#wrapper {
+	margin: 0 auto;
+	max-width: 1020px;
+	width: 98%;
+	background: #000000;
+	border-radius: 2px;
+	position: relative;
+	top: 60px;
+	border: none;
+	box-shadow:none;
+}
+#wrapper img {
+	opacity: 0.8;
+}
+#wrapper h2 {
+	display: none;
+}
+.livevote .inline button {
+	display: inline !important;
+	color: #fff;
+	background-color: #123456;
+	border-radius: 5px;
+	width: 25%;
+}
+.livevote .inline .button3 {
+	color: #ff0000;
+}
+#login {
+	position:relative;
+	top: 100px;
+	margin: 0 auto;
+	border:10px 10px 10px 10px;
+	height:50px 50px 50px 50px;
+}
+
+#login form input {
+	font-size: 25px;
+	text-align: center;
+	width: 50%;
+	height: 50px;
+	margin: 0 auto 5px auto;
+	opacity: 0.8;
+}
+#login form input.submit {
+	opacity:1;
+}
+
+header {
+	width: 100%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fff;
+	margin-bottom: 5px;
+	box-shadow: 0px 3px 5px #000000;
+	border-radius: 5px;
+} 
+	
+h1 {
+	margin: -14px 0 20px;
+}
+nav {
+	width: 100%;
+	text-align: center;
+	margin: 0px;
+}
+nav ul {
+	width: 80%;
+	list-style: none;
+	margin: 0 auto;
+	padding: 0px;
+	text-align: center;
+}
+nav ul li {
+	list-style: none;
+	text-align: center;
+	border: none;
+	width:96%;
+}	
+nav ul li button {
+	top: 100px;
+	background: #123456;
+	display: block;
+	padding: 10px 10px;
+	margin-bottom: 2px;
+	font-weight: bold;
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+}
+nav ul li button:hover, nav ul li.active a, nav ul li:visited {
+	background-color: #ccc;
+	color: #808080;
+	border-radius: 15%;
+}
+a:visited {
+	outline;
+	color:grey;
+}
+
+button:hover {
+    opacity:1.0;
+	color: #003366;
+}
+
+.create {
+	width: 300px;
+	
+	text-align: center;
+}
+
+.create {
+	display:block;
+	width: 250px;
+}
+
+div li button {
+	border-radius:25px;
+	text-align:center;
+	width:100%;
+}
+
+div form input{
+	display: block;
+	width: 85%;
+	height: 35px;
+}
+#Quorum {
+	width: 20%;
+}
+#sendNow {
+	width: 25%;
+}
+#election {
+	text-align: center;
+	width: 75%;
+	height: 100%;
+	border-style: solid;
+    border-width: 5px;
+	border-radius: 25%;
+	padding:5% 5% 5% 5%;
+	margin:5%;
+}
+
+.container{
+	max-width: 1020px;
+	width: 98%;
+	margin-left: auto;
+	margin-right: auto;
+/*	background-color: #E0E0EB;*/
+	background-color: #fff;
+	height: initial;
+}
+.container-fluid {
+	height: 100%;
+}
+
+#electioncontainer {
+	text-align: center;
+	width: 90%;
+	height: 100%;
+	padding:2.5%;
+	margin:2.5%;
+}
+
+#election input {
+	width:50%;
+	float:left;
+	display:inline-block;
+}
+
+li {
+	list-style-type:none;
+}
+
+#navbar {
+	position: absolute;
+}
+
+.color{
+	color:#003366 !important;
+	font-weight: bold;
+}
+
+.next{
+	display: inline !important;
+}
+
+.btn-lg {
+  padding: 8px 16px;
+  font-size: 14px;
+  line-height: 0.33;
+  border-radius: 6px;
+  height: 28px;
+}
+
+#navbar img {
+	float: left !important;
+	height: 30px;
+	width: 30px;
+	display: inline;
+	vertical-align: middle;
+	border-color: 0;
+
+}
+#navbar button{
+	float: left;
+	background-color: white;
+	border-radius: 20%;
+}
+
+#navbar button:hover{
+	background-color: #fff !important;
+}
+
+#slide {
+	left: -200px;
+}
+#vq{display: block;}
+#vq button{
+	width: 100%;
+	background-color:#fff;
+	color:#123456; 
+}
+button{display: list-item;}
+
+#results{
+	align: center;
+	width: 100%;
+	text-align: left;
+	margin: 55px 0 0;
+}
+#results div{
+	text-align: center;
+	border:2px outset;
+	background: #fff;
+	position: relative;
+	height: 40px;
+	padding: 1px 0 0;
+}
+#results h3 {
+	font-size: 10px;
+	white-space: nowrap;
+	margin: 13px 0 0;
+}
+#results span {
+	position: absolute;
+	right: -40px;
+	top: 10px;
+}
+
+#results div+div {
+	border-top:0;
+}
+#bill{
+width: 73%;
+background-color: blue;
+}	
+
+#george{
+width: 56%;
+}	
+#richard{
+width: 52%;
+}	
+#ronald{
+width: 48%;
+}	
+#abraham{
+width: 42%;
+}	
+#jefferson{
+width: 40%;
+}	
+
+
+#same {
+	text-align: center;
+}
+#same button{
+	width: 100%;
+	background-color: #123456;
+	color: #fff;
+	border:1px outset;
+	margin: 0 auto;
+}
+button.s{
+	background-color: white !important;
+	color: grey !important;
+}
+button.ss:hover{
+	color:grey !important;
+	font-weight: bold;
+}
+button.s:hover{
+	background-color: grey !important;
+	color: #fff !important;
+	font-weight: bold;
+}
+#results a{
+	text-decoration: none;
+}
+#table{
+	height: 150px;
+	overflow-y: scroll;
+}
+
+
+#nice h2 {
+    font-family:arial;
+}
+
+#nice form {
+    display: inline-block;
+}
+
+#nice #button{
+    display: inline-block;
+    height:20px;
+	width:50px;
+	background-color:#123456;
+	font-family:arial;
+	font-weight:bold;
+	color:#ffffff;
+	border-radius: 5px;
+	text-align:center;
+	margin-top:2px;
+}
+#button:hover{
+	background-color: #999 !important;
+}
+
+#nice .list {
+	font-family:garamond;
+	color:#123456;
+}
+
+.dropdown button{
+	width: 100%;
+}
+
+img{
+	width:95%;
+	display: inline;
+
+
+}
+
+#tablee button{
+    width: 50px;
+	background-color: #123456;
+	color: #fff;
+	border:1px outset;
+	margin: 0 auto;
+	border-radius: 10px;
+}
+
+#button2 {
+    width: 54px;
+	background-color: #123456;
+	color: #fff;
+	border:1px outset;
+	margin: 0 auto;
+	border-radius: 10px;
+	font-weight: bold;
+}
+
+#button3 {
+    width: 100%;
+	background-color: #123456;
+	color: #fff;
+	border:1px outset;
+	margin: 0 auto;
+	border-radius: 10px;
+	font-weight: bold;
+}
+
+input{
+	text-align: center;
+}
+
+.grey{color:grey;}
+
+.form-control{
+	font-size: 12px !important;
+	color: #000 !important;
+}
+
+.jumbotron h1{
+	color: #003366 !important;
+	font-weight: bold;
+	font-size: 15px !important;
+}
+
+button{
+	height: relative;
+}
+button:hover{
+	background-color:#ccc !important;
+	color:#fff !important;
+}
+
+ul#mainmenu {
+			list-style: none;
+			width: 100%;
+		}
+
+		ul#mainmenu li {
+			width: 30px;
+			margin-right: 2px;
+			display: inline-block;
+			position: relative;
+			background:grey;
+			padding: 10px;
+			white-space: normal;
+		}
+
+		ul#mainmenu li:hover {
+			background: #ccc ;
+		}
+
+		ul#mainmenu li a:hover {
+			color: grey;
+			font-weight: bolder;
+		}
+
+		ul#mainmenu li a {
+			color: #fff;
+			text-decoration: none;
+		}
+
+		ul#mainmenu li:hover ul.sub-menu {
+			opacity: 1;
+			height: auto;
+			-webkit-transition: all 3000ms ease;
+			  -moz-transition: all 3000ms ease;
+			  -ms-transition: all 3000ms ease;
+			  -o-transition: all 3000ms ease;
+			  transition: all 3000ms ease;
+		}
+
+		ul.sub-menu {
+			width: 2000px;
+			text-align: left;
+			list-style: none;
+			opacity: 0;
+			height: 0;
+			position: absolute;
+			left:0;
+			top: 35px;
+			z-index: 100;
+			margin: -200px;
+
+			-webkit-transition: all 3000ms ease;
+			  -moz-transition: all 3000ms ease;
+			  -ms-transition: all 3000ms ease;
+			  -o-transition: all 3000ms ease;
+			  transition: all 3000ms ease;
+		}
+
+		ul.sub-menu li {
+			display: list-item !important;
+		}
+
+	#tfnewsearch{
+		float:right;
+		padding:20px;
+	}
+	#tfheader{
+		width: 100%;
+	}
+	.tftextinput{
+		width: 120px;
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		border:1px solid #0076a3; border-right:0px;
+		border-top-left-radius: 5px 5px;
+		border-bottom-left-radius: 5px 5px;
+	}
+	.tfbutton {
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+		border: solid 1px #0076a3; border-right:0px;
+		background: #0095cd;
+		background: -webkit-gradient(linear, left top, left bottom, from(#123456), to(#ccc));
+		background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+		border-top-right-radius: 5px 5px;
+		border-bottom-right-radius: 5px 5px;
+	}
+	.tfbutton:hover {
+		text-decoration: none;
+		background: #007ead;
+		background: -webkit-gradient(linear, left top, left bottom, from(#ccc), to(#123456));
+		background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+	}
+	/* Fixes submit button height problem in Firefox */
+	.tfbutton::-moz-focus-inner {
+	  border: 0;
+	}
+	.tfclear{
+		clear:both;
+	}
+/*-------Media-----*/
+@media only screen and (max-width: 800px) {
+	html {
+		background-color: #E0E0EB;
+		height: 100%;
+	}
+=======
+/*************general shit *********/
+
+h1 { font-family: 'Verdana', Arial, Helvetica, sans-serif; font-size:20px; }
+h2 { font-family: 'Verdana', Arial, Helvetica, sans-serif; font-size:10px; }
+p { font-family: 'Arial', Helvetica, sans-serif; color: #123456; text-align: center;}
+ol { font-family: 'Arial', Helvetica, sans-serif; }
+li { font-family: 'Arial', Helvetica, sans-serif; }
+a{color: #123456;}
+
+html {
+	height: 100%;
+	background-color: #123456;
+}
+
+body{
+	height: 100%;
+	margin:auto;
+	display:inline;
+	text-align: center;
+}
+ul {
+	display: block;
+	list-style-type: disc;
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	-webkit-margin-start: 0;
+	-webkit-margin-end: 0;
+	-webkit-padding-start: 0;
+	background-size: 100% 100%;
+			display: inline-block;
+			margin: 0 auto;	
+}
+
+.jumbotron{
+	height: initial;
+	margin-top: 0;
+}
+.livevote .inline button {
+	width: 45%;
+}
+/*
+#login {
+	background: url(Home.jpg) no-repeat 0 0;
+	width: 100%;
+	height: 50%;
+	background-size: 100% 100%;
+	overflow: hidden;
+	display: inline-block;
+	margin: 0 auto;	
+}*/
+#wrapper {
+	margin: 0 auto;
+	max-width: 1020px;
+	width: 98%;
+	background: #000000;
+	border-radius: 2px;
+	position: relative;
+	top: 60px;
+	border: none;
+	box-shadow:none;
+}
+#wrapper img {
+	opacity: 0.8;
+}
+#wrapper h2 {
+	display: none;
+}
+#login {
+	position:relative;
+	top: 100px;
+	margin: 0 auto;
+	border:10px 10px 10px 10px;
+	height:50px 50px 50px 50px;
+}
+
+#login form input {
+	font-size: 25px;
+	text-align: center;
+	width: 50%;
+	height: 50px;
+	margin: 0 auto 5px auto;
+	opacity: 0.8;
+}
+#login form input.submit {
+	opacity:1;
+}
+
+header {
+	width: 100%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fff;
+	margin-bottom: 5px;
+	box-shadow: 0px 3px 5px #000000;
+	border-radius: 5px;
+} 
+	
+h1 {
+	margin: 50px 0 20px;
+}
+nav {
+	width: 100%;
+	text-align: center;
+	margin: 0px;
+}
+nav ul {
+	width: 80%;
+	list-style: none;
+	margin: 0 auto;
+	padding: 0px;
+	text-align: center;
+}
+nav ul li {
+	list-style: none;
+	text-align: center;
+	border: none;
+	width:96%;
+}	
+nav ul li button {
+	top: 100px;
+	background: #123456;
+	display: block;
+	padding: 10px 10px;
+	margin-bottom: 2px;
+	font-weight: bold;
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+}
+nav ul li button:hover, nav ul li.active a, nav ul li:visited {
+	background-color: #ccc;
+	color: #808080;
+	border-radius: 15%;
+}
+a:visited {
+	outline;
+	color:grey;
+}
+
+button:hover {
+    opacity:1.0;
+	color: #003366;
+}
+
+.create {
+	width: 300px;
+	background-image: url("logo.png");
+	text-align: center;
+}
+
+.create {
+	display:block;
+	width: 250px;
+}
+
+div li button {
+	border-radius:25px;
+	text-align:center;
+	width:100%;
+}
+
+#election {
+	text-align: center;
+	width: 75%;
+	height: 100%;
+	border-style: solid;
+    border-width: 5px;
+	border-radius: 25%;
+	padding:5% 5% 5% 5%;
+	margin:5%;
+}
+
+.container{
+	max-width: 1020px;
+	width: 98%;
+	margin-left: auto;
+	margin-right: auto;
+/*	background-color: #E0E0EB;*/
+	background-color: #fff;
+	height: initial;
+}
+.container-fluid {
+	height: 100%;
+}
+
+#electioncontainer {
+	text-align: center;
+	width: 90%;
+	height: 100%;
+	padding:2.5%;
+	margin:2.5%;
+}
+
+#election input {
+	width:50%;
+	float:left;
+	display:inline-block;
+}
+
+li {
+	list-style-type:none;
+}
+
+#navbar {
+	position: absolute;
+}
+
+#navbar img {
+	float: left !important;
+	height: 30px;
+	width: 30px;
+	display: inline;
+	vertical-align: middle;
+	border-color: 0;
+
+}
+#navbar button{
+	float: left;
+	background-color: white;
+	border-radius: 20%;
+}
+
+#navbar button:hover{
+	background-color: #fff !important;
+}
+
+#slide {
+	left: -200px;
+}
+#vq{display: block;}
+#vq button{
+	width: 100%;
+	background-color:#fff;
+	color:#123456; 
+}
+button{display: list-item;}
+
+#results{
+	align: center;
+	width: 100%;
+	text-align: left;
+	margin: 55px 0 0;
+}
+#results div{
+	text-align: center;
+	border:2px outset;
+	background: #fff;
+	position: relative;
+	height: 40px;
+	padding: 1px 0 0;
+}
+#results h3 {
+	font-size: 10px;
+	white-space: nowrap;
+	margin: 13px 0 0;
+}
+#results span {
+	position: absolute;
+	right: -40px;
+	top: 10px;
+}
+
+#results div+div {
+	border-top:0;
+}
+#bill{
+width: 73%;
+background-color: blue;
+}	
+
+#george{
+width: 56%;
+}	
+#richard{
+width: 52%;
+}	
+#ronald{
+width: 48%;
+}	
+#abraham{
+width: 42%;
+}	
+#jefferson{
+width: 40%;
+}	
+
+
+#same {
+	text-align: center;
+}
+#same button{
+	width: 100%;
+	background-color: #123456;
+	color: #fff;
+	border:1px outset;
+	margin: 0 auto;
+}
+button.s{
+	background-color: white !important;
+	color: grey !important;
+}
+button.ss:hover{
+	color:grey !important;
+	font-weight: bold;
+}
+button.s:hover{
+	background-color: grey !important;
+	color: #fff !important;
+	font-weight: bold;
+}
+#results a{
+	text-decoration: none;
+}
+#table{
+	height: 150px;
+	overflow-y: scroll;
+}
+
+
+#nice h2 {
+    font-family:arial;
+}
+
+#nice form {
+    display: inline-block;
+}
+
+#nice #button{
+    display: inline-block;
+    height:20px;
+	width:50px;
+	background-color:#123456;
+	font-family:arial;
+	font-weight:bold;
+	color:#ffffff;
+	border-radius: 5px;
+	text-align:center;
+	margin-top:2px;
+}
+#button:hover{
+	background-color: #999 !important;
+}
+
+#nice .list {
+	font-family:garamond;
+	color:#123456;
+}
+
+.dropdown button{
+	width: 100%;
+}
+
+img{
+	width:95%;
+	display: inline;
+	
+
+}
+
+#tablee button{
+    width: 50px;
+	background-color: #123456;
+	color: #fff;
+	border:1px outset;
+	margin: 0 auto;
+	border-radius: 10px;
+}
+
+#button2 {
+    width: 54px;
+	background-color: #123456;
+	color: #fff;
+	border:1px outset;
+	margin: 0 auto;
+	border-radius: 10px;
+	font-weight: bold;
+}
+
+#button3 {
+    width: 100%;
+	background-color: #123456;
+	color: #fff;
+	border:1px outset;
+	margin: 0 auto;
+	border-radius: 10px;
+	font-weight: bold;
+}
+
+
+input{
+	text-align: center;
+}
+
+.grey{color:grey;}
+
+.form-control{
+	font-size: 12px !important;
+	color: #000 !important;
+}
+
+.jumbotron h1{
+	color: #003366 !important;
+	font-weight: bold;
+	font-size: 15px !important;
+}
+
+button{
+	height: relative;
+}
+button:hover{
+	background-color:#ccc !important;
+	color:#fff !important;
+}
+
+ul#mainmenu {
+			list-style: none;
+			width: 100%;
+		}
+
+		ul#mainmenu li {
+			width: 30px;
+			display: inline-block;
+			position: relative;
+			background:grey;
+			padding: 10px;
+			white-space: normal;
+		}
+
+		ul#mainmenu li:hover {
+			background: #ccc ;
+		}
+		ul#mainmenu li a {
+			width:inherit;
+			height:inherit;
+		}
+		ul#mainmenu li a:hover {
+			color: grey;
+			font-weight: bolder;
+		}
+
+		ul#mainmenu li a {
+			color: #fff;
+			text-decoration: none;
+		}
+
+		ul#mainmenu li:hover ul.sub-menu {
+			opacity: 1;
+			height: auto;
+			-webkit-transition: all 3000ms ease;
+			  -moz-transition: all 3000ms ease;
+			  -ms-transition: all 3000ms ease;
+			  -o-transition: all 3000ms ease;
+			  transition: all 3000ms ease;
+		}
+
+		ul.sub-menu {
+			width: 2000px;
+			text-align: left;
+			list-style: none;
+			opacity: 0;
+			height: 0;
+			position: absolute;
+			left:0;
+			top: 35px;
+			z-index: 100;
+			margin: -200px;
+
+			-webkit-transition: all 3000ms ease;
+			  -moz-transition: all 3000ms ease;
+			  -ms-transition: all 3000ms ease;
+			  -o-transition: all 3000ms ease;
+			  transition: all 3000ms ease;
+		}
+
+		ul.sub-menu li {
+			display: list-item !important;
+		}
+
+	#tfnewsearch{
+		float:right;
+		padding:20px;
+	}
+	#tfheader{
+		width: 100%;
+	}
+	.tftextinput{
+		width: 120px;
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		border:1px solid #0076a3; border-right:0px;
+		border-top-left-radius: 5px 5px;
+		border-bottom-left-radius: 5px 5px;
+	}
+	.tfbutton {
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+		border: solid 1px #0076a3; border-right:0px;
+		background: #0095cd;
+		background: -webkit-gradient(linear, left top, left bottom, from(#123456), to(#ccc));
+		background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+		border-top-right-radius: 5px 5px;
+		border-bottom-right-radius: 5px 5px;
+	}
+	.tfbutton:hover {
+		text-decoration: none;
+		background: #007ead;
+		background: -webkit-gradient(linear, left top, left bottom, from(#ccc), to(#123456));
+		background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+	}
+	/* Fixes submit button height problem in Firefox */
+	.tfbutton::-moz-focus-inner {
+	  border: 0;
+	}
+	.tfclear{
+		clear:both;
+	}
+/*-------Media-----*/
+@media only screen and (max-width: 800px) {
+	html {
+		background-color: #E0E0EB;
+		height: 100%;
+	}
+=======
+/*************general shit *********/
+
+h1 { font-family: 'Verdana', Arial, Helvetica, sans-serif; font-size:20px; }
+h2 { font-family: 'Verdana', Arial, Helvetica, sans-serif; font-size:10px; }
+p { font-family: 'Arial', Helvetica, sans-serif; color: #123456; text-align: center;}
+ol { font-family: 'Arial', Helvetica, sans-serif; }
+li { font-family: 'Arial', Helvetica, sans-serif; }
+a{color: #123456;}
+
+html {
+	height: 100%;
+	background-color: #123456;
+}
+
+body{
+	height: 100%;
+	margin:auto;
+	display:inline;
+	text-align: center;
+}
+ul {
+	display: block;
+	list-style-type: disc;
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	-webkit-margin-start: 0;
+	-webkit-margin-end: 0;
+	-webkit-padding-start: 0;
+	background-size: 100% 100%;
+			display: inline-block;
+			margin: 0 auto;	
+}
+
+.jumbotron{
+	height: initial;
+	margin-top: 0;
+}
+
+#login {/*
+	background: url(Home.jpg) no-repeat 0 0;*/
+	width: 100%;
+	height: 300px;
+	background-size: 100% 100%;
+	overflow: hidden;
+	display: inline-block;
+	margin: 0 auto;	
+}
+header {
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fff;
+	margin-bottom: 5px;
+}
+h1 {
+	margin: -14px 0 20px;
+}
+nav {
+	width: 100%;
+	text-align: center;
+	margin: 0px;
+}
+nav ul {
+	width: 80%;
+	list-style: none;
+	margin: 0 auto;
+	padding: 0px;
+	text-align: center;
+}
+nav ul li {
+	list-style: none;
+	text-align: center;
+	border: none;
+	width:96%;
+}	
+nav ul li button {
+	top: 100px;
+	background: #123456;
+	display: block;
+	padding: 10px 10px;
+	margin-bottom: 2px;
+	font-weight: bold;
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+}
+nav ul li button:hover, nav ul li.active a, nav ul li:visited {
+	background-color: #ccc;
+	color: #808080;
+	border-radius: 15%;
+}
+a:visited {
+	outline;
+	color:grey;
+}
+
+button:hover {
+    opacity:1.0;
+	color: #003366;
+}
+
+.create {
+	width: 300px;
+	
+	text-align: center;
+}
+
+.create {
+	display:block;
+	width: 250px;
+}
+
+div li button {
+	border-radius:15px;
+	text-align:center;
+	width:100%;
+}
+
+#election {
+	text-align: center;
+	width: 75%;
+	height: 100%;
+	border-style: solid;
+    border-width: 5px;
+	border-radius: 25%;
+	padding:5% 5% 5% 5%;
+	margin:5%;
+}
+
+.container{
+	max-width: 1020px;
+	width: 98%;
+	margin-left: auto;
+	margin-right: auto;
+/*	background-color: #E0E0EB;*/
+	background-color: #fff;
+	height: initial;
+}
+.container-fluid {
+	height: 100%;
+}
+
+#electioncontainer {
+	text-align: center;
+	width: 90%;
+	height: 100%;
+	padding:2.5%;
+	margin:2.5%;
+}
+
+#election input {
+	width:50%;
+	float:left;
+	display:inline-block;
+}
+
+
+
+li {
+	list-style-type:none;
+}
+
+#navbar {
+	position: absolute;
+}
+
+#navbar img {
+	float: left !important;
+	height: 30px;
+	width: 30px;
+	display: inline;
+	vertical-align: middle;
+	border-color: 0;
+
+}
+#navbar button{
+	float: left;
+	background-color: white;
+	border-radius: 20%;
+}
+
+#navbar button:hover{
+	background-color: #fff !important;
+}
+
+#slide {
+	left: -200px;
+}
+#vq{display: block;}
+#vq button{
+	width: 100%;
+	background-color:#fff;
+	color:#123456; 
+}
+button{
+	display: list-item;
+	height: 50px;
+
+}
+
+#results{
+	align: center;
+	width: 100%;
+	text-align: left;
+	margin: 55px 0 0;
+}
+#results div{
+	text-align: center;
+	border:2px outset;
+	background: #fff;
+	position: relative;
+	height: 40px;
+	padding: 1px 0 0;
+}
+#results h3 {
+	font-size: 10px;
+	white-space: nowrap;
+	margin: 13px 0 0;
+}
+#results span {
+	position: absolute;
+	right: -40px;
+	top: 10px;
+}
+
+#results div+div {
+	border-top:0;
+}
+#bill{
+width: 73%;
+background-color: blue;
+}	
+
+#george{
+width: 56%;
+}	
+#richard{
+width: 52%;
+}	
+#ronald{
+width: 48%;
+}	
+#abraham{
+width: 42%;
+}	
+#jefferson{
+width: 40%;
+}	
+
+
+#same {
+	text-align: center;
+}
+#same button{
+	width: 100%;
+	background-color: #123456;
+	color: #fff;
+	border:1px outset;
+	margin: 0 auto;
+}
+button.s{
+	background-color: white !important;
+	color: grey !important;
+}
+button.ss:hover{
+	color:grey !important;
+	font-weight: bold;
+}
+button.s:hover{
+	background-color: grey !important;
+	color: #fff !important;
+	font-weight: bold;
+}
+#results a{
+	text-decoration: none;
+}
+#table{
+	height: 150px;
+	overflow-y: scroll;
+}
+
+
+#nice h2 {
+    font-family:arial;
+}
+
+#nice form {
+    display: inline-block;
+}
+
+#nice #button{
+    display: inline-block;
+    height:20px;
+	width:50px;
+	background-color:#123456;
+	font-family:arial;
+	font-weight:bold;
+	color:#ffffff;
+	border-radius: 5px;
+	text-align:center;
+	margin-top:2px;
+}
+#button:hover{
+	background-color: #999 !important;
+}
+
+#nice .list {
+	font-family:garamond;
+	color:#123456;
+}
+
+.dropdown button{
+	width: 100%;
+}
+
+img{
+	width:95%;
+	display: inline;
+
+}
+
+#tablee button{
+    width: 50px;
+	background-color: #123456;
+	color: #fff;
+	border:1px outset;
+	margin: 0 auto;
+	border-radius: 10px;
+}
+
+#button2 {
+    width: 54px;
+	background-color: #123456;
+	color: #fff;
+	border:1px outset;
+	margin: 0 auto;
+	border-radius: 10px;
+	font-weight: bold;
+}
+
+#button3 {
+    width: 100%;
+	background-color: #123456;
+	color: #fff;
+	border:1px outset;
+	margin: 0 auto;
+	border-radius: 10px;
+	font-weight: bold;
+}
+
+
+input{
+	text-align: center;
+}
+
+.grey{color:grey;}
+
+.form-control{
+	font-size: 12px !important;
+	color: #000 !important;
+}
+
+.jumbotron h1{
+	color: #003366 !important;
+	font-weight: bold;
+	font-size: 15px !important;
+}
+
+button{
+	height: relative;
+	
+}
+button:hover{
+	background-color:#ccc !important;
+	color:#fff !important;
+}
+
+ul#mainmenu {
+			list-style: none;
+			width: 100%;
+		}
+
+		ul#mainmenu li {
+			width: 30px;
+			display: inline-block;
+			position: relative;
+			background:grey;
+			padding: 10px;
+			white-space: normal;
+		}
+
+		ul#mainmenu li:hover {
+			background: #ccc ;
+		}
+
+		ul#mainmenu li a:hover {
+			color: grey;
+			font-weight: bolder;
+		}
+
+		ul#mainmenu li a {
+			color: #fff;
+			text-decoration: none;
+		}
+
+		ul#mainmenu li:hover ul.sub-menu {
+			opacity: 1;
+			height: auto;
+			-webkit-transition: all 3000ms ease;
+			  -moz-transition: all 3000ms ease;
+			  -ms-transition: all 3000ms ease;
+			  -o-transition: all 3000ms ease;
+			  transition: all 3000ms ease;
+		}
+
+		ul.sub-menu {
+			width: 2000px;
+			text-align: left;
+			list-style: none;
+			opacity: 0;
+			height: 0;
+			position: absolute;
+			left:0;
+			top: 35px;
+			z-index: 100;
+			margin: -200px;
+
+			-webkit-transition: all 3000ms ease;
+			  -moz-transition: all 3000ms ease;
+			  -ms-transition: all 3000ms ease;
+			  -o-transition: all 3000ms ease;
+			  transition: all 3000ms ease;
+		}
+
+		ul.sub-menu li {
+			display: list-item !important;
+		}
+
+	#tfnewsearch{
+		float:right;
+		padding:20px;
+	}
+	#tfheader{
+		width: 100%;
+	}
+	.tftextinput{
+		width: 120px;
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		border:1px solid #0076a3; border-right:0px;
+		border-top-left-radius: 5px 5px;
+		border-bottom-left-radius: 5px 5px;
+	}
+	.tfbutton {
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+		border: solid 1px #0076a3; border-right:0px;
+		background: #0095cd;
+		background: -webkit-gradient(linear, left top, left bottom, from(#123456), to(#ccc));
+		background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+		border-top-right-radius: 5px 5px;
+		border-bottom-right-radius: 5px 5px;
+	}
+	.tfbutton:hover {
+		text-decoration: none;
+		background: #007ead;
+		background: -webkit-gradient(linear, left top, left bottom, from(#ccc), to(#123456));
+		background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+	}
+	/* Fixes submit button height problem in Firefox */
+	.tfbutton::-moz-focus-inner {
+	  border: 0;
+	}
+	.tfclear{
+		clear:both;
+	}
+/*-------Media-----*/
+@media only screen and (max-width: 478px) {
+	html {
+		background-color: #E0E0EB;
+		height: 100%;
+	}
+
